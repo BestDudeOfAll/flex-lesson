@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  color: #666;
+}
+h1 {
+  color: #333;
+}
+h2 {
+  color: #333;
+}
+
+.container {
+  max-width: 80%;
+  /* center the container using a spacing property */
+}
+
+/* Style your nav list to be horizontal */
+.navigation {
+  /* remove list dots */
+}
+.navigation ul {
+}
+
+/* 
+Add more selectors here to style the links in the navigation. 
+For example, you might want to style the links to have a different color, remove underlines, or change the hover effect.
+...
+*/
+
+/* Then style the default links on the rest of the page */
+
+/* Make image scale down to fit container */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Flex grid styles */
+.row {
+  display: flex;
+  gap: 20px;
+}
+.col {
+  flex: 1;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+}
